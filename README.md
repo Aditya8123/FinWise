@@ -48,38 +48,39 @@ FinWise/
 ├── docs/
 │   ├── architecture.md
 │   ├── decisions/    # Design decision logs
-│   ├── learning\_log.md
+│   ├── learning_log.md
 │   └── api.md
 ├── notebooks/
-│   ├── 01\_pdf\_extraction.ipynb
-│   ├── 02\_chunking\_experiments.ipynb
-│   ├── 03\_embeddings\_bench.ipynb
-│   ├── 04\_graph\_construction.ipynb
-│   └── 05\_rag\_eval.ipynb
-└── src/
-├── config.py
-├── data/
-│   ├── pdf\_loader.py
-│   ├── cleaners.py
-│   └── chunkers.py
-├── embeddings/
-│   ├── base.py
-│   ├── sentence\_transformers\_backend.py
-│   └── ollama\_backend.py
-├── vectordb/
-│   ├── chroma\_store.py
-│   └── faiss\_store.py
-├── graph/
-│   ├── concepts.py
-│   ├── graph\_builders.py
-│   └── graph\_viz.py
-├── rag/
-│   ├── retriever.py
-│   ├── rerankers.py
-│   └── pipeline.py
-└── api/
-└── app.py
-tests/
+│   ├── 01_pdf_extraction.ipynb
+│   ├── 02_chunking_experiments.ipynb
+│   ├── 03_embeddings_bench.ipynb
+│   ├── 04_graph_construction.ipynb
+│   └── 05_rag_eval.ipynb
+├── src/                    # <-- Python modules go here
+│   ├── config.py
+│   ├── data/
+│   │   ├── pdf_loader.py
+│   │   ├── cleaners.py
+│   │   └── chunkers.py
+│   ├── embeddings/
+│   │   ├── base.py
+│   │   ├── sentence_transformers_backend.py
+│   │   └── ollama_backend.py
+│   ├── vectordb/
+│   │   ├── chroma_store.py
+│   │   └── faiss_store.py
+│   ├── graph/
+│   │   ├── concepts.py
+│   │   ├── graph_builders.py
+│   │   └── graph_viz.py
+│   ├── rag/
+│   │   ├── retriever.py
+│   │   ├── rerankers.py
+│   │   └── pipeline.py
+│   └── api/
+│       └── app.py
+└── tests/
+
 
 ````
 
